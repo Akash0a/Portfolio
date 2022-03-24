@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  background-color: #f4edff;
+}
+
+.navMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dfd5f8;
+}
+
+.navMain .logo {
+  width: 20%;
+  font-size: 26px;
+  font-family: 'Palette Mosaic', cursive;
+  padding: 7px 19px;
+  color: #eaaf5be6;
+}
+
+.navMain .navbar {
+  width: 55%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navMain .navbar h3 {
+  font-size: 18px;
+  border: 3px solid;
+  border-radius: 27px;
+  padding: 7px;
+}
+
+.navMain #mode {
+  width: 20%;
+  text-align: end;
+  margin: auto;
+}
+
+.navMain #mode #mode-btn {
+  border: 3px solid blue;
+  border-radius: 27px;
+  padding: 7px;
+  color: white;
+}
+
+#intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px 0px;
+}
+
+#intro #intro-img {
+  width: 50%;
+  padding: 14px;
+  text-align: center;
+}
+
+#intro #intro-element {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#intro .intro-h3 {
+  font-size: 28px;
+  width: 50%;
+  text-align: end;
+  color: #303349;
+}
+
+#intro .intro-h1 {
+  font-size: 43px;
+  padding: 2px 0;
+  width: 50%;
+  text-align: end;
+  color: #EAAF5B;
+}
+
+#webDev {
+  margin: 30px;
+  background-color: #dfd5f8;
+}
+
+#webDev #webDevIcon {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+#webDev #webDevIcon img {
+  width: 100%;
+  height: 323px;
+}
+/*# sourceMappingURL=index.css.map */

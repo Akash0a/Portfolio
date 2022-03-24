@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    // background-color:#f4edff ;
+}
+
+main{
+    background-color:#f4edff ;
+}
+.navMain{
+    display: flex;
+    align-items: center;
+    background-color: #dfd5f8;
+    .logo{
+        width: 20%;
+        font-size: 26px;
+        font-family: 'Palette Mosaic', cursive;
+        padding: 7px 19px;
+        color: #eaaf5be6;
+        }
+
+    .navbar{
+        width: 55%;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+
+        h3{
+            font-size: 18px;
+            border: 3px solid;
+            border-radius: 27px;
+            padding: 7px;
+        }
+
+        
+    }
+
+    #mode{
+        width: 20%;
+        text-align: end;
+        margin: auto;
+
+        #mode-btn{
+            border: 3px solid blue;
+            border-radius: 27px;
+            padding: 7px;
+           color: white;
+        }
+
+
+    }
+
+
+}
+
+#intro{
+    display: flex;
+    padding: 35px 0px;
+    #intro-img{
+        width: 50%;
+        padding: 14px;
+        text-align: center;
+    }
+
+    #intro-element{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-h3{
+        font-size: 28px;
+        width: 50%;
+        text-align: end;
+        color: #303349;
+    }
+    .intro-h1{
+        font-size: 43px;
+        padding: 2px 0;
+        width: 50%;
+        text-align: end;
+        color: #EAAF5B;
+    }
+}
+
+#webDev{
+    margin: 30px;
+    background-color: #dfd5f8;
+
+    #webDevIcon{
+        width: 75%;
+        display: flex;
+        margin: auto;
+            img{
+                width: 100%;
+                height: 323px;
+            }
+        }
+}
+
