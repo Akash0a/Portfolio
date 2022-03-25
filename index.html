@@ -8,6 +8,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
 
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,15 +20,21 @@
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Palette+Mosaic&family=Roboto:wght@500&family=Supermercado+One&family=Zen+Antique&display=swap"
         rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Oswald:wght@500;700&family=Palette+Mosaic&family=Supermercado+One&family=Zen+Antique&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <main>
 
-        <nav class="navMain">
+        <nav class="navMain animation-fadeIn">
 
             <div class="logo">
-                <h1 class="logoElement">AKASH</h1>
+                <h1 class="logoElement" href="#">AKASH</h1>
             </div>
 
             <div class="navbar">
@@ -41,7 +49,13 @@
             </div>
 
             <div id="mode">
-                <button id="mode-btn">swtich mode</button>
+                <button id="mode-btn">
+                    <select id="mode-select">
+                        <option id="mode-light">Light Mode</option>
+                        <option id="mode-dark">Dark Mode</option>
+                    </select>
+
+                </button>
             </div>
 
         </nav>
@@ -231,12 +245,17 @@
 
         <div id="web-design">
             <h1 class="web-design-h1">Try on web design</h1>
-            <div class="web-design-collection">
+            <div class="web-design-collection ">
                 <img src="greenie-ss.PNG" class="wd-img">
             </div>
         </div>
 
+        <footer id="footer-main">
+            <div id="footer-elm">
+                <h1 id="foot-h1">It's not the end, just started and still more to come...</h1>
 
+            </div>
+        </footer>
     </main>
 
     <script src="index.js"></script>

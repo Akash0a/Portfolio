@@ -5,6 +5,33 @@
           box-sizing: border-box;
 }
 
+.animation-fadeIn {
+  -webkit-animation: fadeInAnimation ease-in 3s;
+          animation: fadeInAnimation ease-in 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 main {
   background-color: #f4edff;
 }
@@ -25,6 +52,7 @@ main {
   font-family: 'Palette Mosaic', cursive;
   padding: 7px 19px;
   color: #cd6799;
+  cursor: pointer;
 }
 
 .navMain .navbar {
@@ -47,6 +75,13 @@ main {
   padding: 7px;
   color: #444875;
   background-color: #f4edff;
+  font-family: 'Zen Antique', serif;
+}
+
+.navMain .navbar h3:hover {
+  -webkit-box-shadow: 0px 0px 6px 5px whitesmoke;
+          box-shadow: 0px 0px 6px 5px whitesmoke;
+  cursor: pointer;
 }
 
 .navMain #mode {
@@ -56,10 +91,15 @@ main {
 }
 
 .navMain #mode #mode-btn {
-  border: 3px solid blue;
+  border: 3px solid #444875;
   border-radius: 27px;
   padding: 7px;
-  color: white;
+  color: #444875;
+  cursor: pointer;
+}
+
+.navMain #mode #mode-btn #mode-select {
+  border-radius: 27px;
 }
 
 #intro {
@@ -97,14 +137,15 @@ main {
   width: 50%;
   text-align: end;
   color: #303349;
+  font-family: cursive;
 }
 
 #intro .intro-h1 {
   font-size: 43px;
-  padding: 2px 0;
   width: 50%;
   text-align: end;
   color: #cd6799;
+  font-family: 'Kalam', cursive;
 }
 
 #webDev {
@@ -176,6 +217,18 @@ main {
       image-rendering: -moz-crisp-edges;
       image-rendering: -o-pixelated;
       image-rendering: pixelated;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#webdev-project .wdp .wdp-img-sctn .wdp-img-div .wdp-img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 6px 5px #ac5555;
+          box-shadow: 0px 0px 6px 5px #ac5555;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #webdev-project .wdp .wdp-detail {
@@ -185,6 +238,7 @@ main {
 
 #webdev-project .wdp .wdp-detail .wdp-h1 {
   text-align: center;
+  font-family: 'Zen Antique', serif;
 }
 
 #webdev-project .wdp .wdp-detail .wdp-detail-elm {
@@ -226,6 +280,13 @@ main {
   cursor: pointer;
 }
 
+#webdev-project .wdp .wdp-detail .wdp-elm-btn .wdp-btn-div .wdp-btn:hover {
+  font-family: 'Zen Antique', serif;
+  font-size: 16px;
+  background-color: whitesmoke;
+  color: #cd6799;
+}
+
 #webdev-project .wdp-other-prj {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,6 +300,16 @@ main {
 #webdev-project .wdp-other-prj .wdp-img-div {
   text-align: center;
   width: 100%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#webdev-project .wdp-other-prj .wdp-img-div:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 #webdev-project .wdp-other-prj .wdp-img-div .wdp-img {
@@ -270,7 +341,8 @@ main {
 }
 
 #webdev-project .wdp-other-prj .wdp-img-div .wdp-img-elm .wdp-img-h2 {
-  font-size: 22px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
 #webdev-project .wdp-other-prj .wdp-img-div .wdp-img-elm .wdp-elm-btn {
@@ -295,6 +367,13 @@ main {
   cursor: pointer;
 }
 
+#webdev-project .wdp-other-prj .wdp-btn-div .wdp-btn:hover {
+  font-family: 'Zen Antique', serif;
+  font-size: 16px;
+  background-color: whitesmoke;
+  color: #cd6799;
+}
+
 #web-design {
   text-align: center;
   background-color: #dfd5f89c;
@@ -302,13 +381,40 @@ main {
 
 #web-design .web-design-h1 {
   padding: 30px 0;
+  font-family: 'Zen Antique', serif;
 }
 
 #web-design .web-design-collection .wd-img {
-  width: 60%;
+  width: 50%;
   border: 2px solid dimgrey;
   border-radius: 6px;
   -webkit-box-shadow: 0px 0px 6px 5px #444875;
           box-shadow: 0px 0px 6px 5px #444875;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+#web-design .web-design-collection .wd-img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 6px 5px #ac5555;
+          box-shadow: 0px 0px 6px 5px #ac5555;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#footer-main {
+  text-align: center;
+  padding: 39px 0;
+  margin: 30px;
+  background-color: #cd6799;
+  color: #f4edff;
+  border-radius: 8px;
+}
+
+#footer-main #foot-h1 {
+  font-family: 'Palette Mosaic', cursive;
+  font-size: 3em;
 }
 /*# sourceMappingURL=index.css.map */
