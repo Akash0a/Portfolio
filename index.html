@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
@@ -31,7 +32,7 @@
 <body>
     <main>
 
-        <nav class="navMain animation-fadeIn">
+        <nav class="navMain animation-fadeIn  sticky">
 
             <div class="logo">
                 <h1 class="logoElement" href="#">AKASH</h1>
@@ -49,14 +50,22 @@
             </div>
 
             <div id="mode">
-                <button id="mode-btn">
-                    <select id="mode-select">
-                        <option id="mode-light">Light Mode</option>
-                        <option id="mode-dark">Dark Mode</option>
-                    </select>
 
-                </button>
-            </div>
+                <!-- <button id="mode-btn">
+                    <select id="mode-select">
+                        <option id="mode-white" onclick="changeBG('#ffffff')">
+                            Light Mode
+                        </option>
+                        <option id="mode-dark" onclick="changeBG('#000000')">
+                            Dark Mode
+                        </option>
+                    </select>
+                </button> -->
+
+                <span class="btn" id="default" onclick="changeBG('#f4edff')"> </span>
+                <span class="btn" id="white" onclick="changeBG('#ffffff')"> </span>
+                <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+
 
         </nav>
 
@@ -162,8 +171,7 @@
                         <h2 class="wdp-img-h2"> Sticky menu</h2>
 
                         <div class="wdp-btn-div">
-                            <a href="https://bdsqn8tlmbcgrhhfbllktg.on.drv.tw/www.Coffee.com/coffe.html"
-                                target="_blank">
+                            <a href="https://akash0a.github.io/Sticky-NavBar/" target="_blank">
                                 <button class="wdp-btn">Review</button>
                             </a>
                         </div>
@@ -179,8 +187,7 @@
                         <h2 class="wdp-img-h2"> Background-color changer</h2>
 
                         <div class="wdp-btn-div">
-                            <a href="https://bdsqn8tlmbcgrhhfbllktg.on.drv.tw/www.Coffee.com/coffe.html"
-                                target="_blank">
+                            <a href="https://akash0a.github.io/bg-changer/" target="_blank">
                                 <button class="wdp-btn">Review</button>
                             </a>
                         </div>
@@ -196,8 +203,7 @@
                         <h2 class="wdp-img-h2">Form validation</h2>
 
                         <div class="wdp-btn-div">
-                            <a href="https://cdpn.io/pen/debug/QWayLJW?authentication_hash=bYrdyOowmByA"
-                                target="_blank">
+                            <a href="https://akash0a.github.io/Form-Validation/" target="_blank">
                                 <button class="wdp-btn">Review</button>
                             </a>
                         </div>
@@ -213,8 +219,7 @@
                         <h2 class="wdp-img-h2"> Word counter</h2>
 
                         <div class="wdp-btn-div">
-                            <a href="https://cdpn.io/pen/debug/NWXdVGG?authentication_hash=VGrWNovLJozM"
-                                target="_blank">
+                            <a href="https://akash0a.github.io/Word-Counter/" target="_blank">
                                 <button class="wdp-btn">Review</button>
                             </a>
                         </div>
@@ -229,8 +234,7 @@
                         <h2 class="wdp-img-h2"> Tempareture Convertor</h2>
 
                         <div class="wdp-btn-div">
-                            <a href="https://cdpn.io/pen/debug/WNdrLrO?authentication_hash=VJrxxRGmWoDr"
-                                target="_blank">
+                            <a href="https://akash0a.github.io/Temperature-Convertor/" target="_blank">
                                 <button class="wdp-btn">Review</button>
                             </a>
                         </div>

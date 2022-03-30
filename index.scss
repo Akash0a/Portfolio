@@ -36,10 +36,22 @@
 // }
 
 // Animation End 
-main{
+
+
+// js
+.sticky{
+    position: fixed;
+    width: 100%;
+    top:0;
+    color: red;
+}
+
+body{
     background-color:#f4edff ;
 }
 .navMain{
+    
+    position: fixed;
     display: flex;
     align-items: center;
     background-color: #dfd5f8;
@@ -81,17 +93,54 @@ main{
         text-align: end;
         margin: auto 18px;
 
-        #mode-btn{
-            border: 3px solid #444875;
-            border-radius: 27px;
-            padding: 7px;
-            color: #444875;
-            cursor: pointer;
-
-            #mode-select{
-                border-radius: 27px;
-            }
+        #color-switcher {
+            text-align: right;
         }
+
+        .btn {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: 1px solid grey;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+
+        #default {
+            background-color: #f4edff;
+        }
+        #white {
+            background-color: white;
+        }
+
+        #black {
+            background-color: black;
+        }
+
+
+
+        // #mode-btn{
+        //     border: 3px solid #444875;
+        //     border-radius: 27px;
+        //     padding: 7px;
+        //     color: #444875;
+            
+        //     .opt-btn{
+        //         cursor: pointer;
+
+        //     }
+
+        //     #mode-select{
+        //         border-radius: 27px;
+        //     }
+
+        //     #mode-dark{
+        //         background-color: black;
+        //         color: white;
+        //     }
+
+        // }
 
 
     }

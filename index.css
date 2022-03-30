@@ -32,11 +32,19 @@
   }
 }
 
-main {
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: red;
+}
+
+body {
   background-color: #f4edff;
 }
 
 .navMain {
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,16 +98,29 @@ main {
   margin: auto 18px;
 }
 
-.navMain #mode #mode-btn {
-  border: 3px solid #444875;
-  border-radius: 27px;
-  padding: 7px;
-  color: #444875;
+.navMain #mode #color-switcher {
+  text-align: right;
+}
+
+.navMain #mode .btn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.navMain #mode #mode-btn #mode-select {
-  border-radius: 27px;
+.navMain #mode #default {
+  background-color: #f4edff;
+}
+
+.navMain #mode #white {
+  background-color: white;
+}
+
+.navMain #mode #black {
+  background-color: black;
 }
 
 #intro {
