@@ -1,6 +1,114 @@
 @media only screen and (max-width: 856px) {
+  .navMain {
+    position: relative;
+  }
+  .navMain .navbar {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .navMain .navbar a {
+    padding: 0px 12px;
+  }
+  #intro .intro-h3 {
+    font-size: 22px;
+    width: 75%;
+  }
+  #intro .intro-h1 {
+    font-size: 36px;
+    width: 75%;
+  }
+  #intro #intro-img img {
+    width: 100%;
+  }
+  #webDev #webDevIcon {
+    width: 100%;
+  }
   #webDev #webDevIcon img {
     width: 50%;
+  }
+  #webdev-project .wdp .wdp-img-sctn .wdp-img-div .wdp-img {
+    width: 93%;
+  }
+  #webdev-project .wdp .wdp-detail {
+    width: 65%;
+    padding: 58px 0px;
+  }
+  #webdev-project .wdp-other-prj .wdp-img-div .wdp-img-elm {
+    width: 100%;
+    margin: 2px;
+  }
+  #webdev-project .wdp-other-prj .wdp-img-div .wdp-img-elm .wdp-img-h2 {
+    width: 100%;
+    font-size: 16px;
+  }
+  #webdev-project .wdp-other-prj .wdp-img-div .wdp-img-elm .wdp-btn-div {
+    width: 100%;
+  }
+}
+
+#footer-main #foot-h1 {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+  .navMain .logo {
+    width: 35%;
+    font-size: 16px;
+    font-family: 'Palette Mosaic', cursive;
+    padding: 5px 8px;
+  }
+  .navMain .navbar a {
+    padding: 0px 4px;
+  }
+  .navMain .navbar h3 {
+    font-size: 11px;
+    padding: 3px;
+    text-align: center;
+  }
+  .navMain #mode {
+    margin: auto 10px;
+  }
+  #intro #intro-element {
+    width: 40%;
+  }
+  #intro .intro-h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  #intro .intro-h1 {
+    font-size: 24px;
+    width: 100%;
+  }
+  #webdev-project .wdp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+  }
+  #webdev-project .wdp .wdp-img-sctn {
+    width: 100%;
+  }
+  #webdev-project .wdp .wdp-img-sctn .wdp-img-div .wdp-img {
+    width: 95%;
+  }
+  #webdev-project .wdp .wdp-detail {
+    width: 100%;
+  }
+  #webdev-project .wdp .wdp-detail .wdp-h1 {
+    font-size: 1.5em;
+  }
+  #webdev-project .wdp .wdp-detail .wdp-h3 {
+    width: 100%;
+    padding: 10px 2px;
+  }
+  #webdev-project .wdp-other-prj {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #footer-main #foot-h1 {
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -1,16 +1,212 @@
 @media only screen and (max-width:856px)
 {
-    #webDev{
-        
-    
-        #webDevIcon{
+
+    .navMain{
+        position: relative;
+
+        .navbar {
+            justify-content: end;
+
+            a{
+                padding: 0px 12px;
+            }
+        }
+    }
+
+
+
+
+    #intro {
+
+        .intro-h3 {
+            font-size: 22px;
+            width: 75%;
             
+        }
+
+        .intro-h1 {
+            font-size: 36px;
+            width: 75%;
+        }
+        #intro-img {
+
+            img{
+                width: 100%;
+            }
+        }
+    } 
+
+    #webDev{
+        #webDevIcon{
+            width: 100%;
                 img{
                     width: 50%;
-                    
-    
                 }
             }
+
     }
+
+#webdev-project {
+
+        .wdp {
+            .wdp-img-sctn{
+                .wdp-img-div{
+                    .wdp-img {
+                        width: 93%;
+                    }
+                }
+            }
+
+            .wdp-detail {
+                width: 65%;
+                padding: 58px 0px;
+            }
+             
+            
+        }
+
+        .wdp-other-prj {
     
+            .wdp-img-div{
+
+                .wdp-img-elm{
+                    width: 100%;
+                    margin: 2px;
+    
+                    .wdp-img-h2 {
+                        width: 100%;
+                        font-size: 16px;
+                    }
+    
+                    .wdp-btn-div {
+                        width: 100%;
+                    }
+                }
+        
+            }
+        }
+
+    } 
+}  
+
+    #footer-main{
+
+        #foot-h1 {
+            font-size: 2em;
+        }
+    }
+
+@media only screen and (max-width:500px)
+{
+
+    .navMain{
+            .logo {
+                width: 35%;
+                font-size: 16px;
+                font-family: 'Palette Mosaic', cursive;
+                padding: 5px 8px;
+                
+            }
+
+            .navbar{
+                a {
+                    padding: 0px 4px;
+                }
+
+                h3 {
+                    font-size: 11px;
+                    padding: 3px;
+                    text-align: center;
+                }
+            } 
+
+            #mode {
+                margin: auto 10px;
+            }
+        } 
+
+    #intro{
+        #intro-element{
+        width: 40%;
+
+        }
+        .intro-h3 {
+            font-size: 16px;
+            width: 100%;
+        }
+        .intro-h1 {
+            font-size: 24px;
+            width: 100%;
+        }
+    }
+
+        #webdev-project{
+            .wdp{
+                flex-direction: column;
+                margin: 0px;
+                .wdp-img-sctn {
+                    width: 100%;
+
+                    .wdp-img-div{
+                        .wdp-img {
+                            width: 95%;
+                        }
+    
+                    }
+                }
+
+                .wdp-detail {
+                    width: 100%;
+                    .wdp-h1{
+                        font-size: 1.5em;
+                    }
+                    .wdp-h3 {
+                        width: 100%;
+                        padding: 10px 2px;
+                    }
+                }
+            }
+            .wdp-other-prj {
+                flex-wrap: wrap;
+            }
+
+        } 
+        #footer-main{
+
+            #foot-h1 {
+                font-size: 1.5em;
+            }
+        }
 }
+// @media only screen and (max-width:500px){
+
+//     .navMain{
+//         position: relative;
+//         .navbar{
+//             justify-content: end;
+
+//             a{
+//                 padding: 0 10px;
+//             }
+//         }
+//     }
+
+
+//     #intro{
+//         flex-direction: column;
+//     }
+// }
+
+// #webdev-project {
+    
+//     .wdp-other-prj {
+//         flex-wrap: wrap;
+        
+//     }.wdp-img-div {
+    
+//     } .wdp-img-elm {
+        
+//         flex-wrap: wrap;
+//     }
+    
+// } 

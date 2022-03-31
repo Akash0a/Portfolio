@@ -339,6 +339,7 @@ body{
         display: flex;
         justify-content: space-evenly;
         padding: 34px 0;
+
         .wdp-img-div{
             text-align: center;
             width: 100%;
@@ -365,7 +366,10 @@ body{
                 display: flex;
                 padding:15px 0px ;
                 flex-direction: column;
-                align-items: center;
+
+                width: 100%;
+                margin: 2px;
+                // align-items: center;
 
                 // justify-content: space-evenly;
                 // align-items: baseline;
@@ -373,17 +377,18 @@ body{
                 .wdp-img-h2{
                     font-size: 20px;
                     font-family: 'Oswald', sans-serif;
+                    width: 100%;
                 }
                 .wdp-elm-btn{
                     display: flex;
-                    align-items: center;
+                    // align-items: center;
     
                 }
             }
         }
 
         .wdp-btn-div{
-            width: 27%;
+            width: 100%;
             // text-align: center;
 
             .wdp-btn{
